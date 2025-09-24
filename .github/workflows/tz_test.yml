@@ -8,8 +8,8 @@ on:
     branches:
       - main
 
-env:
-  TZ: 'Asia/Tokyo'
+# env:
+#   TZ: 'Asia/Tokyo'
 
 jobs:
   conf_time:
