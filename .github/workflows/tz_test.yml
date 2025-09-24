@@ -1,0 +1,21 @@
+name: TZ test
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+env:
+  TZ: 'Asia/Tokyo'
+jobs:
+  rspec:
+    name: Run RSpec
+    runs-on: latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: date
+        run: date
