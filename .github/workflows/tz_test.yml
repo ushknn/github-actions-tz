@@ -13,7 +13,7 @@ env:
 jobs:
   rspec:
     name: Run RSpec
-    runs-on: latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2
