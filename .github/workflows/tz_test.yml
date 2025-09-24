@@ -12,9 +12,10 @@ env:
   TZ: 'Asia/Tokyo'
 
 jobs:
-  rspec:
-    name: Run RSpec
+  conf_time:
+    name: date
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v2
